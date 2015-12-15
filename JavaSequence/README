@@ -1,0 +1,32 @@
+Vincent Chau, 998947424, Kevin Chan, 999109300
+
+Everything is fully functional.
+
+Part 1:
+
+We followed instructions and defined the class heirachy
+
+Part 2: 
+
+We added the list of functions for The Sequence class and it is implemented as a linked list. 
+This is part fully functional.
+
+Part 3:
+
+We added index, flatten and copy. This part is fully functional. 
+For our implementation, we used instanceof due to complier errors of not knowing the type. 
+For deeping sequences, we implemented a recusursive call for instances of sequences within a sequence, and broke it down as a base case. We referred to many posts via piazza in dealing with the deep copy.
+
+Part 4:
+
+Fully functional, this part was quite straight forward. We added the begin and end function. We set our head to the beginning, and trasvered the linked list to the end.
+
+Part 5:
+Fully functional. We approached it with a more brute force way since we were not given intensive amount of data. We allocated a 2D array and used 3 for loops in creating the matrix product and sum. The use dynamic programming or a more efficient solution was not necessary for this part.
+
+Part 6:
+From discussion, we made our map and map iterator very similar to sequence. However, we did not extend the sequence classes because we did not want to bother with all the overriding and possible name clashes. Instead, we declared a new linked list that that hold Pair objects. Our map contains two iterators, one pointing to the beginning and one to the end. For our actual implementation, it is the same as sequence except the implemention of add. 
+From discussion, we followed the rules of adding to the right if the key is identical. We just made comparisons while trasversing the list, and comparing the keys. If they keys were equal, we placed the inval to the right of the list. 
+
+ 
+

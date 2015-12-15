@@ -1,0 +1,23 @@
+Vincent Chau, 998947424 Kevin Chan, 999109300
+
+Part 1:
+
+Part one was more straight forward, it passes all tests.
+We implemented one additional function that was not in the slide, 
+We used the suggested function on piazza: remove-if and remove-if-not.
+
+Part 2:
+
+Our part two passes all tests and is fully functional.
+We reffered to the discussion slides and followed the algorithm.
+This part was also straight forward.
+
+Part 3:
+
+This part is more tricky.
+We have not finished this part. We have the bare skeleton from the discussion slides. 
+We are attempting to implement the the algorithm on the slides. 
+So far, In addition to the skeleton, we added checks for the nil cases 
+and also reseted the variables by setting them to nil.
+We pass the test files for some of the files, but we will need to further debug 
+and add to the skeleton code.
