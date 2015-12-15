@@ -1,0 +1,32 @@
+Vincent Chau, 998947424
+Kevin Chan, 999109300
+
+HW2: E Translator Program
+
+
+Our program is fully functional in part 1,2,3, and 5.
+For our part 4, we have having trouble fixing the scoping errors in files: t44, t45, 46.
+Our part 4 produces no errors for the remaining 27 files.
+
+Part1:
+	We added the missing tokens ~, >, =.
+Part2:
+	We broke down the parse tree into the terminals and non terminals.
+	The functions recurively call each other.
+Part3:
+	We built our symbol table off a Stack of HashMaps. We are inserting the keys with their value for that particular scope. Meanwhile our stack keeps track of the current we are in. Each time we enter a scope, we push a new hashmap, and pop otherwise.
+	We defined custom functions to search in scope, search in stack, search in block, setvalueforkey and many get/set functions to supplement our symbol table.
+Part4:
+	We printed the C code for 27/30 of the testing files. The files we are having with producing the C code are t44, t45, t46. Every other file works perfectly. We have not yet fully debugged the files, but we are still making progress. 
+	We still need to address the cases such as ~a = 11 where we need to find a way to allow our a to refer to the global a compared to the nest a variable. 
+Part5:
+	For part 5, we implemented an interactive statement such as the range function in MATLAB. 
+	We added this syntax: 
+	<start_range> := '^'' num ';' num 
+	Similarly, to MATLAB's range iterative function, this syntax prints the range of numbers for the two parameters. 
+
+	In our test files t50, it produces a correct output which is the case we have two valid numbers to produce a range.
+	In t51, we do error checking, by having an input that is not a number
+	In t52, we do error checking again, by having input that is missing a range. ex: ^2; 
+
+

@@ -1,0 +1,10 @@
+running e2c t51
+Exception in thread "main" java.lang.NumberFormatException: For input string: "d"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at Parser.start_range(Parser.java:87)
+	at Parser.block(Parser.java:26)
+	at Parser.program(Parser.java:23)
+	at Parser.<init>(Parser.java:17)
+	at e2c.main(e2c.java:5)
